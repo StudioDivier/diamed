@@ -176,7 +176,7 @@
                                         <p>Напишите: <span>info@diamedcare.ru</span></p>
                                     </div>
                                 </div>
-                                <form action="<?php bloginfo('template_directory') ?>/mail/send.php" method="post" class="needs-validation" novalidate>
+                                <form action="" method="post" id="ajax_form" class="needs-validation" novalidate>
                                     <div class="form-row red-check-row-2">
                                         <div class="col-lg-3">
                                             <div class="callback__red-check">
@@ -206,7 +206,7 @@
                                             $url = $url[0];
                                             ?>
                                             <input type="hidden" name="link" value="<?=$url ?>">
-                                            <button class="btn" type="submit">Отправить заявку</button>
+                                            <button class="btn" id="id" type="submit">Отправить заявку</button>
                                         </div>
                                     </div>
                                 </form>

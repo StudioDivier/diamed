@@ -27,9 +27,9 @@ $message = "<h3>Заявка со страницы:" . $url . "</h3><ul><li>Те
 $result = $mailSMTP->send($to, $sbj, $message, $from);
 
 
-if($result === true){
-    header('Location: ' . $_POST['link']);
-}else {
-    echo "Error: " . $result;
-
-}
+//if($result === true){
+//    header('Location: ' . $_POST['link']);
+//}else {
+//    echo "Error: " . $result;
+//
+//}
