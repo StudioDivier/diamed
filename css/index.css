@@ -38,7 +38,31 @@
     background-image: url("../img/covid-19.png");
     background-repeat: no-repeat;
     background-position: 23% 50%;
-    background-size: 31%; }
+    background-size: 31%;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-name: bounce-1;
+            animation-name: bounce-1;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear; }
+
+@-webkit-keyframes bounce-1 {
+  0% {
+    background-position: 23% 50%; }
+  50% {
+    background-position: 24% 50%; }
+  100% {
+    background-position: 23% 50%; } }
+
+@keyframes bounce-1 {
+  0% {
+    background-position: 23% 50%; }
+  50% {
+    background-position: 24% 50%; }
+  100% {
+    background-position: 23% 50%; } }
     @media (max-width: 1200px) {
       .index__main-block .main-block__bg4 {
         background-size: 40%;
@@ -247,7 +271,7 @@
       content: '';
       position: absolute;
       top: 0;
-      right: 15px;
+      right: 0;
       border-top: 120px solid #14426e;
       border-left: 230px solid white;
       width: 0; }
@@ -338,7 +362,8 @@
     padding-bottom: 200px;
     background-image: url("../img/desc-bg-4.png");
     background-repeat: no-repeat;
-    background-position: 100% 100%; }
+    background-position: 100% 100%;
+    background-attachment: fixed; }
     @media (max-width: 992px) {
       .index__description .index__description-gb4 {
         background-image: none; } }

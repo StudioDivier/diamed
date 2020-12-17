@@ -14,10 +14,10 @@
             <div class="contacts__main-bg-2">
                 <div class="contacts__main-bg-3">
                     <div class="container">
-                        <h1>Контакты</h1>
-                        <p>Наш квалифицированный персонал окажет Вам необходимую медицинскую помощь с выездном на дом. Вы сможете пройти
+                        <h1 class="revealator-slideup revealator-once">Контакты</h1>
+                        <p class="revealator-slideup revealator-delay1 revealator-once">Наш квалифицированный персонал окажет Вам необходимую медицинскую помощь с выездном на дом. Вы сможете пройти
                             УЗИ или снять кардиограмму, не выходя из дома, а также сдать все необходимые анализы.</p>
-                        <div class="row mt-5">
+                        <div class="row mt-5 revealator-slideup revealator-delay2 revealator-once">
                             <div class="col-lg-4">
                                 <div>
                                     <div class="contacts__phone">
@@ -54,9 +54,9 @@
             <div class="services-bg-2">
                 <div class="services-bg-3">
                     <div class="container">
-                        <h3>Медицинские услуги</h3>
-                        <p>Все наши медицинские услуги Вы можете получить в наших лабораторных отделениях:</p>
-                        <div class="row">
+                        <h3 class="revealator-slideup revealator-once">Медицинские услуги</h3>
+                        <p class="revealator-slideup revealator-delay1 revealator-once">Все наши медицинские услуги Вы можете получить в наших лабораторных отделениях:</p>
+                        <div class="row revealator-slideup revealator-delay2 revealator-once">
                             <div class="col-lg-4">
                                 <img src="<?php bloginfo('template_directory') ?>/img/blue-place.png" alt="blue-place">
                                 <p>Ул. Бориса Галушкина д. 3 <strong>(м.ВДНХ)</strong></p>
@@ -70,8 +70,8 @@
                                 <p>Ул Красина д. 9 стр.1 <strong>(м.Маяковская)</strong></p>
                             </div>
                         </div>
-                        <h3 class="mt-5">Наши реквизиты</h3>
-                        <div class="contacts__reqs">
+                        <h3 class="mt-5 revealator-slideup revealator-delay3 revealator-once">Наши реквизиты</h3>
+                        <div class="contacts__reqs revealator-slideup revealator-delay3 revealator-once">
                             <img src="<?php bloginfo('template_directory') ?>/img/blue-list.png" alt="blue-list">
                             <p>ООО «ДИАМЕД» ИНН 5032297089 / КПП 503201001</p>
                         </div>

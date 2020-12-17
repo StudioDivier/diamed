@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/slick/css/slick.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/slick/css/slick-theme.css">
+
+    <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/revealator/fm.revealator.jquery.css">
     <title><? if (get_field("title") == null){
         $title = "DИAMED - Тестирование сотрудников";?>
         <?=$title; ?>

@@ -16,7 +16,7 @@
                     <div class="express-main-bg-4">
                         <div class="express-main-bg-5">
                             <div class="express-main-bg-6">
-                                <div class="container">
+                                <div class="container revealator-slideright revealator-once">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <h1>Экспресс- тестирование на Covid-19</h1>
@@ -50,10 +50,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
-                    <img src="<?php bloginfo('template_directory') ?>/img/capillar-blood.svg" alt="laser">
+                    <img class="revealator-slideright revealator-once" src="<?php bloginfo('template_directory') ?>/img/capillar-blood.svg" alt="laser">
                 </div>
                 <div class="col-xl-9 d-flex align-items-end">
-                    <p>Капиллярная кровь берется безболезненно при помощи <br><span>лазерного Эрбилайта NCL</span></p>
+                    <p class="revealator-slideleft revealator-once">Капиллярная кровь берется безболезненно при помощи <br><span>лазерного Эрбилайта NCL</span></p>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="lazer__equipment">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 revealator-slideup revealator-once">
                                     <div class="lazer__bg-img">
                                         <div class="lazer__img lazer__img-blue">
                                             <img src="<?php bloginfo('template_directory') ?>/img/lazer-img-1.png" alt="lazer-img">
@@ -84,7 +84,7 @@
                                         кротчайшее
                                         время в 1/4000 сек. сделать «микроканал» за счет испарения биологических тканей</p>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 revealator-slideup revealator-delay1 revealator-once">
                                     <div class="lazer__bg-img">
                                         <div class="lazer__img lazer__img-red">
                                             <img src="<?php bloginfo('template_directory') ?>/img/lazer-img-2.png" alt="lazer-img">
@@ -94,7 +94,7 @@
                                     <p>осуществляется с минимальными болевыми ощущениями, так как отсутствует механический
                                         контакт</p>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 revealator-slideup revealator-delay2 revealator-once">
                                     <div class="lazer__bg-img">
                                         <div class="lazer__img lazer__img-blue">
                                             <img src="<?php bloginfo('template_directory') ?>/img/lazer-img-3.png" alt="lazer-img">
@@ -106,7 +106,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="lazer__advantages">
+
+                        <div class="lazer__advantages revealator-slideup revealator-once">
                             <h4>Преимущества Эрбилайта:</h4>
                             <div class="row">
                                 <div class="col-lg-4">
@@ -219,7 +220,8 @@
         </div>
     </section>
 
-    <section class="index__price  express__price">
+
+    <section class="index__price express__price">
         <div class="index__price-bg1">
             <div class="index__price-bg2">
                 <div class="container">
@@ -234,7 +236,7 @@
                         <div class="row">
 
                             <div class="col-xl-6 col-md-6">
-                                <div class="price__card">
+                                <div class="price__card revealator-slideright revealator-once">
                                     <div class="card__number">
                                         <span>01</span>
                                     </div>
@@ -254,7 +256,7 @@
                             </div>
 
                             <div class="col-xl-6 col-md-6">
-                                <div class="price__card">
+                                <div class="price__card revealator-slideleft revealator-once">
                                     <div class="card__number">
                                         <span>02</span>
                                     </div>
@@ -297,7 +299,7 @@
                                     инфекционное заболевание COVID-19 (COronaVIrus Disease 2019).</p>
                             </div>
                             <div class="description__cards">
-                                <div class="description__item">
+                                <div class="description__item revealator-slideup revealator-once">
                                     <div class="row">
                                         <div class="col-md-3 description__item-img-col">
                                             <div class="description__item-img-chet">
@@ -318,7 +320,7 @@
                                     </div>
                                 </div>
 
-                                <div class="description__item">
+                                <div class="description__item revealator-slideup revealator-delay1 revealator-once">
                                     <div class="row">
                                         <div class="col-md-3 description__item-img-col">
                                             <div class="description__item-img-nechet">
@@ -341,7 +343,7 @@
                                     </div>
                                 </div>
 
-                                <div class="description__item">
+                                <div class="description__item revealator-slideup revealator-delay2 revealator-once">
                                     <div class="row">
                                         <div class="col-md-3 description__item-img-col">
                                             <div class="description__item-img-chet">
@@ -379,7 +381,7 @@
                     <div class="contract__cards">
                         <div class="row">
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item">
+                                <div class="contract-cards__item revealator-slideright revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract1.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">01</div>
@@ -387,7 +389,7 @@
                                             <p>Любым удобным для Вас способом:</p>
                                             <div class="item__contacts">
                                                 <span>Телефон: <strong>8 (495) 419-23-21</strong></span>
-                                                <br>
+                                                <br class="br">
                                                 <span class="mx-2">|</span>
                                                 <span>E-mail: <strong>info@diamedcare.ru</strong></span>
                                             </div>
@@ -398,7 +400,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item">
+                                <div class="contract-cards__item revealator-slideleft revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract2.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">02</div>
@@ -411,7 +413,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item">
+                                <div class="contract-cards__item revealator-slideright revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract3.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">03</div>
@@ -425,7 +427,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item">
+                                <div class="contract-cards__item revealator-slideleft revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract4.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">04</div>

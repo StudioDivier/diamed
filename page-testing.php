@@ -1,10 +1,14 @@
 <?php get_header(); ?>
 
+    <div class="stage">
+        <div class="box bounce-1"></div>
+    </div>
+
     <section class="index__main-block">
         <div class="main-block__bg1">
             <div class="main-block__bg2">
                 <div class="main-block__bg3">
-                    <div class="main-block__bg4">
+                    <div class="main-block__bg4 revealator-slideright">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6"></div>
@@ -34,7 +38,7 @@
                             <div class="main-cards__item-content">
                                 <a href="#" class="main-cards__item-content-title">Экспресс-тестирование на Covid-19</a>
                                 <p>Проводится на Вашей территории выездным медицинским персоналом</p>
-                                <a href="/express" class="main-cards__item-content-button">Узнать подробнее</a>
+                                <a href="#" class="main-cards__item-content-button">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -47,7 +51,7 @@
                             <div class="main-cards__item-content">
                                 <a href="#" class="main-cards__item-content-title">Диагностика на дому</a>
                                 <p>Проводится на Вашей территории выездным медицинским персоналом</p>
-                                <a href="/diagnostic" class="main-cards__item-content-button">Узнать подробнее</a>
+                                <a href="#" class="main-cards__item-content-button">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -60,7 +64,7 @@
                             <div class="main-cards__item-content">
                                 <a href="#" class="main-cards__item-content-title">Контакты</a>
                                 <p>Проводится на Вашей территории выездным медицинским персоналом</p>
-                                <a href="/contacts" class="main-cards__item-content-button">Узнать подробнее</a>
+                                <a href="#" class="main-cards__item-content-button">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -75,10 +79,10 @@
                 <div class="col-lg-6 check__col-left"></div>
                 <div class="col-lg-6 check__col-right">
                     <div class="container">
-                        <h2>Проверка <span>коллектива</span></h2>
-                        <p>Проверка коллектива происходит без отрыва от работы с последующим предоставлением результатов
+                        <h2 class="revealator-slideup revealator-once">Проверка <span>коллектива</span></h2>
+                        <p class="revealator-slideup revealator-delay1 revealator-once">Проверка коллектива происходит без отрыва от работы с последующим предоставлением результатов
                             анализов по e-mail</p>
-                        <div class="check__law-block">
+                        <div class="check__law-block revealator-slideup revealator-delay2 revealator-once">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img src="<?php bloginfo('template_directory') ?>/img/warning.svg" alt="covid-warning">
@@ -101,7 +105,7 @@
         <div class="index__price-bg1">
             <div class="index__price-bg2">
                 <div class="container">
-                    <div class="price__title">
+                    <div class="price__title revealator-slideup revealator-once">
                         <div class="price__title-before">
                             <div class="title-before__line"></div>
                             <span>Стоимость прохождения теста на Covid-19</span>
@@ -112,7 +116,7 @@
                         <div class="row">
 
                             <div class="col-xl-4 col-md-6">
-                                <div class="price__card">
+                                <div class="price__card revealator-slideup revealator-once">
                                     <div class="card__number">
                                         <span>01</span>
                                     </div>
@@ -132,7 +136,7 @@
                             </div>
 
                             <div class="col-xl-4 col-md-6">
-                                <div class="price__card">
+                                <div class="price__card revealator-slideup revealator-delay1 revealator-once">
                                     <div class="card__number">
                                         <span>02</span>
                                     </div>
@@ -152,7 +156,7 @@
                             </div>
 
                             <div class="col-xl-4 col-md-6">
-                                <div class="price__card">
+                                <div class="price__card revealator-slideup revealator-delay2 revealator-once">
                                     <div class="card__number">
                                         <span>03</span>
                                     </div>
@@ -172,7 +176,7 @@
                             </div>
 
                             <div class="col-xl-4 col-md-6">
-                                <div class="price__card">
+                                <div class="price__card revealator-slideup revealator-once">
                                     <div class="card__number">
                                         <span>04</span>
                                     </div>
@@ -192,7 +196,7 @@
                             </div>
 
                             <div class="col-xl-4 col-md-6">
-                                <div class="price__card">
+                                <div class="price__card revealator-slideup revealator-delay1 revealator-once">
                                     <div class="card__number">
                                         <span>05</span>
                                     </div>
@@ -212,7 +216,7 @@
                             </div>
 
                             <div class="col-xl-4 col-md-6">
-                                <div class="price__card">
+                                <div class="price__card revealator-slideup revealator-delay2 revealator-once">
                                     <div class="card__number">
                                         <span>06</span>
                                     </div>
@@ -255,7 +259,7 @@
                                     инфекционное заболевание COVID-19 (COronaVIrus Disease 2019).</p>
                             </div>
                             <div class="description__cards">
-                                <div class="description__item">
+                                <div class="description__item revealator-slideup revealator-once">
                                     <div class="row">
                                         <div class="col-md-3 description__item-img-col">
                                             <div class="description__item-img-chet">
@@ -276,7 +280,7 @@
                                     </div>
                                 </div>
 
-                                <div class="description__item">
+                                <div class="description__item revealator-slideup revealator-delay1 revealator-once">
                                     <div class="row">
                                         <div class="col-md-3 description__item-img-col">
                                             <div class="description__item-img-nechet">
@@ -299,7 +303,7 @@
                                     </div>
                                 </div>
 
-                                <div class="description__item">
+                                <div class="description__item revealator-slideup revealator-delay2 revealator-once">
                                     <div class="row">
                                         <div class="col-md-3 description__item-img-col">
                                             <div class="description__item-img-chet">
@@ -337,7 +341,7 @@
                     <div class="contract__cards">
                         <div class="row">
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item">
+                                <div class="contract-cards__item revealator-slideright revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract1.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">01</div>
@@ -356,7 +360,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item">
+                                <div class="contract-cards__item revealator-slideleft revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract2.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">02</div>
@@ -369,7 +373,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item">
+                                <div class="contract-cards__item revealator-slideright revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract3.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">03</div>
@@ -383,7 +387,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item">
+                                <div class="contract-cards__item revealator-slideleft revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract4.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">04</div>
@@ -400,5 +404,9 @@
             </div>
         </div>
     </section>
+
+
+
+
 
 <?php get_footer(); ?>

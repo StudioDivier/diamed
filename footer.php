@@ -4,7 +4,7 @@
             <div class="callback-bg-3">
                 <div class="callback-bg-4">
                     <div class="container">
-                        <div class="callback__form">
+                        <div class="callback__form revealator-zoomin revealator-once">
                             <h2>Оставьте заявку</h2>
                             <p>Оставьте заявку и наш менеджер свяжется с вами</p>
                             <form action="" method="post" id="ajax_form"
@@ -133,17 +133,17 @@
 <script src="<?php bloginfo('template_directory') ?>/libs/slick/js/slick.min.js"></script>
 
 
-<script>
-    $(document).ready(function () {
-        $('.your-class').slick({
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 4000,
-            arrows: false,
-            dots: false
-        });
-    });
-</script>
+<!--<script>-->
+<!--    $(document).ready(function () {-->
+<!--        $('.your-class').slick({-->
+<!--            infinite: true,-->
+<!--            autoplay: true,-->
+<!--            autoplaySpeed: 4000,-->
+<!--            arrows: false,-->
+<!--            dots: false-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
 
 <script>
     // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -166,5 +166,7 @@
     })();
 </script>
 
+<script src="<?php bloginfo('template_directory') ?>/libs/revealator/jquery-1.11.3.min.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/libs/revealator/fm.revealator.jquery.js"></script>
 </body>
 </html>
