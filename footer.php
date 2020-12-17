@@ -7,7 +7,7 @@
                         <div class="callback__form">
                             <h2>Оставьте заявку</h2>
                             <p>Оставьте заявку и наш менеджер свяжется с вами</p>
-                            <form action="<?php bloginfo('template_directory') ?>/mail/send.php" method="post" id="ajax_form"
+                            <form action="" method="post" id="ajax_form"
                                   class="needs-validation" novalidate>
                                 <div class="form-row">
                                     <div class="col-xl-4 col-lg-6">
@@ -39,7 +39,7 @@
                                         $url = $url[0];
                                         ?>
                                         <input type="hidden" name="link" value="<?=$url ?>">
-                                        <button class="btn" type="submit">Отправить заявку</button>
+                                        <button class="btn" id="btn" type="submit">Отправить заявку</button>
                                     </div>
                                 </div>
                             </form>

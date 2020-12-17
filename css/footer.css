@@ -32,12 +32,17 @@
   color: #ffffff;
   position: relative;
   z-index: 40; }
+  @media (max-width: 576px) {
+    .callback .callback__form {
+      padding: 10px 15px; }
+      .callback .callback__form img {
+        width: 35px; } }
   .callback .callback__form h2 {
     font-size: 55px;
     font-weight: 500; }
     @media (max-width: 576px) {
       .callback .callback__form h2 {
-        font-size: 35px; } }
+        font-size: 25px; } }
   .callback .callback__form p {
     font-size: 16px;
     font-weight: 300; }
@@ -93,10 +98,18 @@
       text-transform: uppercase;
       font-weight: 300;
       margin-left: 15px; }
+      @media (max-width: 576px) {
+        .callback .callback__form .red-check-row-1 > div p {
+          margin-left: 10px;
+          font-size: 14px; } }
       .callback .callback__form .red-check-row-1 > div p span {
         font-weight: 700;
         font-size: 18px;
         margin-left: 10px; }
+        @media (max-width: 576px) {
+          .callback .callback__form .red-check-row-1 > div p span {
+            margin-left: 0;
+            font-size: 14px; } }
   .callback .callback__form .red-check-row-2 > div {
     display: -webkit-box;
     display: -ms-flexbox;

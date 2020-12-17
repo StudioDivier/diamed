@@ -53,7 +53,7 @@
                     <img src="<?php bloginfo('template_directory') ?>/img/capillar-blood.svg" alt="laser">
                 </div>
                 <div class="col-xl-9 d-flex align-items-end">
-                    <p>Капиллярная кровь берется безболезненно при помощи <span>лазерного Эрбилайта NCL</span></p>
+                    <p>Капиллярная кровь берется безболезненно при помощи <br><span>лазерного Эрбилайта NCL</span></p>
                 </div>
             </div>
         </div>
@@ -219,7 +219,7 @@
         </div>
     </section>
 
-    <section class="index__price">
+    <section class="index__price  express__price">
         <div class="index__price-bg1">
             <div class="index__price-bg2">
                 <div class="container">
@@ -387,6 +387,7 @@
                                             <p>Любым удобным для Вас способом:</p>
                                             <div class="item__contacts">
                                                 <span>Телефон: <strong>8 (495) 419-23-21</strong></span>
+                                                <br>
                                                 <span class="mx-2">|</span>
                                                 <span>E-mail: <strong>info@diamedcare.ru</strong></span>
                                             </div>

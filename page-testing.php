@@ -345,6 +345,7 @@
                                             <p>Любым удобным для Вас способом:</p>
                                             <div class="item__contacts">
                                                 <span>Телефон: <strong>8 (495) 419-23-21</strong></span>
+                                                <br class="br">
                                                 <span class="mx-2">|</span>
                                                 <span>E-mail: <strong>info@diamedcare.ru</strong></span>
                                             </div>
