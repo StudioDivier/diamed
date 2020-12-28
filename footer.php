@@ -43,7 +43,7 @@
                                     </div>
                                 </div>
                             </form>
-                            <p class="form__rules">Отправляя форму, я соглашаюсь с <a href="#">правилами сайта</a></p>
+                            <p class="form__rules">Отправляя форму, я соглашаюсь с <a href="/privacy.html">правилами сайта</a></p>
                         </div>
                     </div>
                 </div>
@@ -118,10 +118,36 @@
                 </button>
             </div>
             <div class="modal-body">
+                <h2>Оставьте заявку</h2>
+                <h5>Нашему менеджеру</h5>
+                <form action="" class="needs-validation" novalidate>
 
+                    <div class="form-group">
+                        <label for="tel" style="display: none">телефон</label>
+                        <input type="tel" class="form-control" id="tel-modal" placeholder="Телефон" required>
+                        <div class="invalid-feedback">
+                            Пожалуйста введите корректный телефон
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name-modal" style="display: none">name-modal</label>
+                        <input type="name-modal" class="form-control" id="name-modal" placeholder="Имя" required>
+                        <div class="invalid-feedback">
+                            Пожалуйста введите корректное Имя
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-block" type="submit">Отправить</button>
+                    </div>
+
+                </form>
             </div>
         </div>
     </div>
+</div>
+
+<div class="bottom-modal" data-toggle="modal" data-target="#callbackModal">
+    <i class="material-icons">phone</i>
 </div>
 
 
@@ -133,17 +159,7 @@
 <script src="<?php bloginfo('template_directory') ?>/libs/slick/js/slick.min.js"></script>
 
 
-<!--<script>-->
-<!--    $(document).ready(function () {-->
-<!--        $('.your-class').slick({-->
-<!--            infinite: true,-->
-<!--            autoplay: true,-->
-<!--            autoplaySpeed: 4000,-->
-<!--            arrows: false,-->
-<!--            dots: false-->
-<!--        });-->
-<!--    });-->
-<!--</script>-->
+
 
 <script>
     // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -168,5 +184,17 @@
 
 <script src="<?php bloginfo('template_directory') ?>/libs/revealator/jquery-1.11.3.min.js"></script>
 <script src="<?php bloginfo('template_directory') ?>/libs/revealator/fm.revealator.jquery.js"></script>
+
+<script>
+    if (document.querySelector('.covid-move')) {
+        let bg = document.querySelector('.covid-move');
+        window.addEventListener('mousemove', function(e) {
+            let x = e.clientX / window.innerWidth;
+            let y = e.clientY / window.innerHeight;
+            bg.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
+        });
+    }
+</script>
+
 </body>
 </html>
