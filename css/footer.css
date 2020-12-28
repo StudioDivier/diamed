@@ -245,3 +245,32 @@ footer {
         color: #14426e; }
         footer .footer__copyright p a:hover {
           text-decoration: none; }
+
+.bottom-modal {
+  position: fixed;
+  bottom: 100px;
+  right: 150px;
+  background-color: #ed6a1e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  z-index: 999999;
+  cursor: pointer;
+  -webkit-box-shadow: 0 3px 31px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 3px 31px rgba(0, 0, 0, 0.25); }
+  @media (max-width: 992px) {
+    .bottom-modal {
+      bottom: 50px;
+      right: 50px; } }
+  .bottom-modal i {
+    color: #ffffff;
+    font-size: 50px; }

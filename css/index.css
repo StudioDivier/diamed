@@ -34,42 +34,17 @@
       .index__main-block .main-block__bg3 {
         background-size: 80%;
         background-position: 50% 50%; } }
-  .index__main-block .main-block__bg4 {
-    background-image: url("../img/covid-19.png");
-    background-repeat: no-repeat;
-    background-position: 23% 50%;
-    background-size: 31%;
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-name: bounce-1;
-            animation-name: bounce-1;
-    -webkit-animation-timing-function: linear;
-            animation-timing-function: linear; }
-
-@-webkit-keyframes bounce-1 {
-  0% {
-    background-position: 23% 50%; }
-  50% {
-    background-position: 24% 50%; }
-  100% {
-    background-position: 23% 50%; } }
-
-@keyframes bounce-1 {
-  0% {
-    background-position: 23% 50%; }
-  50% {
-    background-position: 24% 50%; }
-  100% {
-    background-position: 23% 50%; } }
-    @media (max-width: 1200px) {
-      .index__main-block .main-block__bg4 {
-        background-size: 40%;
-        background-position: 15% 50%; } }
-    @media (max-width: 768px) {
-      .index__main-block .main-block__bg4 {
-        background-image: none; } }
+  .index__main-block .main-block__bg4 img {
+    width: 100%; }
+  @media (max-width: 1200px) {
+    .index__main-block .main-block__bg4 {
+      background-size: 40%;
+      background-position: 15% 50%; } }
+  @media (max-width: 768px) {
+    .index__main-block .main-block__bg4 {
+      background-image: none; }
+      .index__main-block .main-block__bg4 .covid-move {
+        display: none; } }
   .index__main-block .main-block__col-title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -173,11 +148,19 @@
   margin-top: 85px;
   background-image: url("../img/bg-check.png");
   background-repeat: no-repeat;
-  background-size: 48%;
   background-position: 0 50%; }
   @media (max-width: 1440px) {
     .index__check {
       margin-top: 0; } }
+  @media (min-width: 992px) {
+    .index__check {
+      background-size: 50%; } }
+  @media (min-width: 1440px) {
+    .index__check {
+      background-size: 46%; } }
+  @media (min-width: 1600px) {
+    .index__check {
+      background-size: 40%; } }
   @media (max-width: 992px) {
     .index__check {
       background-image: none; } }
@@ -281,10 +264,10 @@
           border-left: 140px solid white; } }
     .index__price .price__cards .price__card .card__number {
       position: absolute;
-      right: 25px; }
+      right: 15px; }
       .index__price .price__cards .price__card .card__number span {
         color: #ffffff;
-        font-size: 60px;
+        font-size: 50px;
         padding-right: 10px; }
         @media (max-width: 576px) {
           .index__price .price__cards .price__card .card__number span {
@@ -359,7 +342,7 @@
     background-repeat: no-repeat;
     background-position: -20% 110%; }
   .index__description .index__description-gb4 {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     background-image: url("../img/desc-bg-4.png");
     background-repeat: no-repeat;
     background-position: 100% 100%;
@@ -552,10 +535,10 @@
         .index__contract .contract__cards .contract-cards__item .item__border-content .item__contacts br {
           display: none; } }
     .index__contract .contract__cards .contract-cards__item .item__border-content button {
-      margin-left: 20px;
+      margin-top: 20px;
       color: #ffffff;
       font-weight: 500;
       padding: 10px 40px;
       background-color: #14426e;
       border-radius: 0;
-      margin-top: 15px; }
+      width: 100%; }
