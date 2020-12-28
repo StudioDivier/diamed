@@ -38,7 +38,7 @@
                             <div class="main-cards__item-content">
                                 <a href="#" class="main-cards__item-content-title">Экспресс-тестирование на Covid-19</a>
                                 <p>Проводится на Вашей территории выездным медицинским персоналом</p>
-                                <a href="#" class="main-cards__item-content-button">Узнать подробнее</a>
+                                <a href="/express" class="main-cards__item-content-button">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                             <div class="main-cards__item-content">
                                 <a href="#" class="main-cards__item-content-title">Диагностика на дому</a>
                                 <p>Проводится на Вашей территории выездным медицинским персоналом</p>
-                                <a href="#" class="main-cards__item-content-button">Узнать подробнее</a>
+                                <a href="/diagnostic" class="main-cards__item-content-button">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                             <div class="main-cards__item-content">
                                 <a href="#" class="main-cards__item-content-title">Контакты</a>
                                 <p>Проводится на Вашей территории выездным медицинским персоналом</p>
-                                <a href="#" class="main-cards__item-content-button">Узнать подробнее</a>
+                                <a href="/contacts" class="main-cards__item-content-button">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
