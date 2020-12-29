@@ -3,7 +3,7 @@
     <nav aria-label="breadcrumb">
         <div class="container">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                <li class="breadcrumb-item"><a href="/">Главная</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Экспресс-тестирование на Covid-19</li>
             </ol>
         </div>
@@ -211,7 +211,7 @@
                                         </div>
                                     </div>
                                 </form>
-                                <p class="form__rules text-right">Отправляя форму, я соглашаюсь с <a href="#">правилами сайта</a></p>
+                                <p class="form__rules text-right">Отправляя форму, я соглашаюсь с <a href="/privacy">правилами сайта</a></p>
                             </div>
                         </div>
                     </div>

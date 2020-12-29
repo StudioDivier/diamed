@@ -43,7 +43,7 @@
                                     </div>
                                 </div>
                             </form>
-                            <p class="form__rules">Отправляя форму, я соглашаюсь с <a href="/privacy.html">правилами сайта</a></p>
+                            <p class="form__rules">Отправляя форму, я соглашаюсь с <a href="/privacy">правилами сайта</a></p>
                         </div>
                     </div>
                 </div>

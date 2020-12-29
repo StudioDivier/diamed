@@ -11,8 +11,9 @@
                     <div class="main-block__bg4 revealator-slideright">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6"></div>
-                                <div class="col-md-6 main-block__col-title">
+                                <div class="col-md-7">
+                                    <img src="<?php bloginfo('template_directory') ?>/img/covid-19.png" class="covid-move" alt=""></div>
+                                <div class="col-md-5 main-block__col-title">
                                     <div class="main-block__title">
                                         <h1>Тестирование<br>сотрудников</h1>
                                         <h2>На <span>COVID-19</span></h2>
