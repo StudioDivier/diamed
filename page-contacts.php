@@ -59,15 +59,15 @@
                         <div class="row revealator-slideup revealator-delay2 revealator-once">
                             <div class="col-lg-4">
                                 <img src="<?php bloginfo('template_directory') ?>/img/blue-place.png" alt="blue-place">
-                                <p>Ул. Бориса Галушкина д. 3 <strong>(м.ВДНХ)</strong></p>
+                                <p>Ул. Бориса Галушкина д. 3 <strong class="metro-1">(м.ВДНХ)</strong></p>
                             </div>
                             <div class="col-lg-4">
                                 <img src="<?php bloginfo('template_directory') ?>/img/blue-place.png" alt="blue-place">
-                                <p>Ул. Беговая д. 24 <strong>(м.Беговая)</strong></p>
+                                <p>Ул. Беговая д. 24 <strong class="metro-2">(м.Беговая)</strong></p>
                             </div>
                             <div class="col-lg-4">
                                 <img src="<?php bloginfo('template_directory') ?>/img/blue-place.png" alt="blue-place">
-                                <p>Ул Красина д. 9 стр.1 <strong>(м.Маяковская)</strong></p>
+                                <p>Ул Красина д. 9 стр.1 <strong class="metro-3">(м.Маяковская)</strong></p>
                             </div>
                         </div>
                         <h3 class="mt-5 revealator-slideup revealator-delay3 revealator-once">Наши реквизиты</h3>

@@ -36,6 +36,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-lg-6"></div>
                                     </div>
                                 </div>
                             </div>
@@ -50,10 +51,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
-                    <img class="revealator-slideright revealator-once" src="<?php bloginfo('template_directory') ?>/img/capillar-blood.svg" alt="laser">
+                    <img class="revealator-slideup revealator-once" src="<?php bloginfo('template_directory') ?>/img/capillar-blood.svg" alt="laser">
                 </div>
                 <div class="col-xl-9 d-flex align-items-end">
-                    <p class="revealator-slideleft revealator-once">Капиллярная кровь берется безболезненно при помощи <br><span>лазерного Эрбилайта NCL</span></p>
+                    <p class="revealator-slideup revealator-once">Капиллярная кровь берется безболезненно при помощи
+                        <br><span data-toggle="modal" data-target="#erilightModal">лазерного Эрбилайта NCL</span></p>
                 </div>
             </div>
         </div>
@@ -160,7 +162,7 @@
                 <div class="callback-bg-3">
                     <div class="callback-bg-4">
                         <div class="container">
-                            <div class="callback__form">
+                            <div class="callback__form revealator-zoomin revealator-once">
                                 <h2>Оставьте заявку</h2>
                                 <p>Оставьте заявку и наш менеджер свяжется с вами</p>
                                 <div class="row red-check-row-1">
@@ -177,7 +179,7 @@
                                         <p>Напишите: <span>info@diamedcare.ru</span></p>
                                     </div>
                                 </div>
-                                <form action="" method="post" id="ajax_form" class="needs-validation" novalidate>
+                                <form action="" class="needs-validation" novalidate>
                                     <div class="form-row red-check-row-2">
                                         <div class="col-lg-3">
                                             <div class="callback__red-check">
@@ -187,31 +189,25 @@
                                         </div>
                                         <div class="col-lg-3">
                                             <label for="tel" style="display: none">телефон</label>
-                                            <input type="tel" class="form-control" id="tel" name="tel" placeholder="Телефон" required>
+                                            <input type="tel" class="form-control" id="tel" placeholder="Телефон" required>
                                             <div class="invalid-feedback">
                                                 Пожалуйста введите корректный телефон
                                             </div>
                                         </div>
                                         <div class="col-lg-3">
                                             <label for="email" style="display: none">email</label>
-                                            <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
+                                            <input type="email" class="form-control" id="email" placeholder="E-mail" required>
                                             <div class="invalid-feedback">
                                                 Пожалуйста введите корректный E-mail
                                             </div>
                                         </div>
                                         <div class="col-lg-3">
-                                            <input type="hidden" name="url" value="<?=get_field("title"); ?>">
-                                            <?
-                                            $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-                                            $url = explode('?', $url);
-                                            $url = $url[0];
-                                            ?>
-                                            <input type="hidden" name="link" value="<?=$url ?>">
-                                            <button class="btn" id="id" type="submit">Отправить заявку</button>
+                                            <button class="btn" type="submit">Отправить заявку</button>
                                         </div>
                                     </div>
                                 </form>
-                                <p class="form__rules text-right">Отправляя форму, я соглашаюсь с <a href="/privacy">правилами сайта</a></p>
+                                <p class="form__rules text-up">Отправляя форму, я соглашаюсь с <a href="/privacy">правилами
+                                        сайта</a></p>
                             </div>
                         </div>
                     </div>
@@ -219,7 +215,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="index__price express__price">
         <div class="index__price-bg1">
@@ -236,7 +231,7 @@
                         <div class="row">
 
                             <div class="col-xl-6 col-md-6">
-                                <div class="price__card revealator-slideright revealator-once">
+                                <div class="price__card revealator-slideup revealator-once">
                                     <div class="card__number">
                                         <span>01</span>
                                     </div>
@@ -245,7 +240,8 @@
                                         <p>с помощью экспресс тестов (Leccurate SARS Cov-2)</p>
                                     </div>
                                     <div class="card__options">
-                                        <p>Биоматериал: <strong>Капиллярная кровь</strong> (Безболезненный лазерный забор)</p>
+                                        <p>Биоматериал: <strong>Капиллярная кровь</strong> (Безболезненный лазерный забор)
+                                        </p>
                                         <p>Результат в течение <strong>45 минут</strong></p>
                                     </div>
                                     <div class="card__divider"></div>
@@ -256,7 +252,7 @@
                             </div>
 
                             <div class="col-xl-6 col-md-6">
-                                <div class="price__card revealator-slideleft revealator-once">
+                                <div class="price__card revealator-slideup revealator-once">
                                     <div class="card__number">
                                         <span>02</span>
                                     </div>
@@ -265,7 +261,8 @@
                                         <p>общего иммуноглобулина класса G с помощью тестов «ImmuneCheck»</p>
                                     </div>
                                     <div class="card__options">
-                                        <p>Биоматериал: <strong>Капиллярная кровь</strong> (Безболезненный лазерный забор)</p>
+                                        <p>Биоматериал: <strong>Капиллярная кровь</strong> (Безболезненный лазерный забор)
+                                        </p>
                                         <p>Результат в течение <strong>45 минут</strong></p>
                                     </div>
                                     <div class="card__divider"></div>
@@ -319,31 +316,7 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="description__item revealator-slideup revealator-delay1 revealator-once">
-                                    <div class="row">
-                                        <div class="col-md-3 description__item-img-col">
-                                            <div class="description__item-img-nechet">
-                                                <img src="<?php bloginfo('template_directory') ?>/img/index-icon2.svg" alt="icon-diamed">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <div class="description__item-content">
-                                                <p><strong>Тест на антитела IgG к коронавирусу</strong> Коронавирус
-                                                    SARS-CoV-2, антитела IgG) предназначен для определения иммуноглобулинов
-                                                    класса G (IgG).</p>
-                                                <p>Антитела IgG обнаруживаются в крови пациентов через 10-14 дней от момента
-                                                    появления симптомов и сохраняются длительное время. Выявление антител
-                                                    IgG против коронавируса SARS-CoV-2 при отсутствии клинических проявлений
-                                                    свидетельствует о бессимптомном течении инфекционного процесса или о
-                                                    ранее перенесенном заболевании. </p>
-                                                <p><span>Биоматериал для исследования:</span> венозная кровь</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="description__item revealator-slideup revealator-delay2 revealator-once">
                                     <div class="row">
                                         <div class="col-md-3 description__item-img-col">
                                             <div class="description__item-img-chet">
@@ -381,7 +354,7 @@
                     <div class="contract__cards">
                         <div class="row">
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item revealator-slideright revealator-once">
+                                <div class="contract-cards__item revealator-slideup revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract1.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">01</div>
@@ -393,14 +366,16 @@
                                                 <span class="mx-2">|</span>
                                                 <span>E-mail: <strong>info@diamedcare.ru</strong></span>
                                             </div>
-                                            <button class="btn">Форма заявки</button>
+                                            <button class="btn" data-toggle="modal" data-target="#callbackModal">Форма
+                                                заявки
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item revealator-slideleft revealator-once">
+                                <div class="contract-cards__item revealator-slideup revealator-delay1 revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract2.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">02</div>
@@ -413,7 +388,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item revealator-slideright revealator-once">
+                                <div class="contract-cards__item revealator-slideup revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract3.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">03</div>
@@ -427,7 +402,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item revealator-slideleft revealator-once">
+                                <div class="contract-cards__item revealator-slideup revealator-delay1 revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract4.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">04</div>
@@ -444,5 +419,66 @@
             </div>
         </div>
     </section>
+
+
+
+    <div class="modal fade" id="erilightModal" tabindex="-1" aria-labelledby="erilightModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="<?php bloginfo('template_directory') ?>/img/lazer-light.png" alt="lazer-picture">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5>Лазерный Эрбилайт NCL</h5>
+                            <p>Профессиональный лазерный перфоратор - единственная альтернатива металлическим скарификаторам
+                                / ланцетам.</p>
+                            <p>Лазерный перфоратор создан на базе импульсного лазера на эрбиевом гранате (ИАГ:Er), с длиной
+                                волны излучения 2,94 мкм. Коэффициент поглощения света в воде, содержание которой в тканях
+                                человека достигает до 85%, на данной длине волны достигает экстремально высоких значений,
+                                что позволяет за кротчайшее время в 1/4000 сек. сделать «микроканал» за счет испарения
+                                биологических тканей. Процедура перфорации пальца осуществляется с минимальными болевыми
+                                ощущениями, так как отсутствует механический контакт. При этом поверхность образованного
+                                канала имеет ровную структуру, не карбонизированную, что обеспечивает очень хорошую
+                                заживляемость ранки.</p>
+                            <p>Экономическая выгода при использовании в медицинских учреждениях по сравнению с современными
+                                металлическими ланцетами с выдвижной иглой.</p>
+                        </div>
+                    </div>
+                    <div class="modal--list">
+                        <h5>Преимущества Эрбилайт</h5>
+                        <div class="row mt-4">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><span>Лазерное излучение на длине волны 2940 нм безопасно для глаз и не требует использование
+                                    каких либо защитных очков в процессе эксплуатации</span>
+                                    </li>
+                                    <li><span>Исключение риска инфицирования пациентов и медицинского персонала при проколе тканей пальца
+                                    при заборе крови на анализ</span></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><span>Болезненные ощущения намного меньше по сравнению со стандартными металлическими иглами-
+                                    скарификаторами</span>
+                                    </li>
+                                    <li><span>Прибор предназначен для использования профессиональными медицинскими сотрудниками для забора
+                                    проб крови у пациентов в лечебно-профилактических учреждениях</span></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <?php get_footer(); ?>

@@ -1,18 +1,15 @@
 <?php get_header(); ?>
 
-    <div class="stage">
-        <div class="box bounce-1"></div>
-    </div>
-
     <section class="index__main-block">
         <div class="main-block__bg1">
             <div class="main-block__bg2">
                 <div class="main-block__bg3">
-                    <div class="main-block__bg4 revealator-slideright">
+                    <div class="main-block__bg4">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-7">
-                                    <img src="<?php bloginfo('template_directory') ?>/img/covid-19.png" class="covid-move" alt=""></div>
+                                    <img src="<?php bloginfo('template_directory') ?>/img/covid-19.png" class="covid-move" alt="">
+                                </div>
                                 <div class="col-md-5 main-block__col-title">
                                     <div class="main-block__title">
                                         <h1>Тестирование<br>сотрудников</h1>
@@ -37,7 +34,7 @@
                         <div class="main-cards__item-inner" style="background-image: url('<?php bloginfo('template_directory') ?>/img/main-card-1.png')">
                             <div class="main-cards__item-img"></div>
                             <div class="main-cards__item-content">
-                                <a href="#" class="main-cards__item-content-title">Экспресс-тестирование на Covid-19</a>
+                                <a href="/express" class="main-cards__item-content-title">Экспресс-тестирование на Covid-19</a>
                                 <p>Проводится на Вашей территории выездным медицинским персоналом</p>
                                 <a href="/express" class="main-cards__item-content-button">Узнать подробнее</a>
                             </div>
@@ -50,9 +47,9 @@
                         <div class="main-cards__item-inner" style="background-image: url('<?php bloginfo('template_directory') ?>/img/main-card-2.png')">
                             <div class="main-cards__item-img"></div>
                             <div class="main-cards__item-content">
-                                <a href="#" class="main-cards__item-content-title">Диагностика на дому</a>
+                                <a href="#prices" class="main-cards__item-content-title">Диагностика на дому</a>
                                 <p>Проводится на Вашей территории выездным медицинским персоналом</p>
-                                <a href="/diagnostic" class="main-cards__item-content-button">Узнать подробнее</a>
+                                <a href="#prices" class="main-cards__item-content-button">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -63,9 +60,9 @@
                         <div class="main-cards__item-inner" style="background-image: url('<?php bloginfo('template_directory') ?>/img/main-card-3.png')">
                             <div class="main-cards__item-img"></div>
                             <div class="main-cards__item-content">
-                                <a href="#" class="main-cards__item-content-title">Контакты</a>
+                                <a href="#callback" class="main-cards__item-content-title">Контакты</a>
                                 <p>Проводится на Вашей территории выездным медицинским персоналом</p>
-                                <a href="/contacts" class="main-cards__item-content-button">Узнать подробнее</a>
+                                <a href="#callback" class="main-cards__item-content-button">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -102,6 +99,7 @@
         </div>
     </section>
 
+    <a name="prices"></a>
     <section class="index__price">
         <div class="index__price-bg1">
             <div class="index__price-bg2">
@@ -284,29 +282,6 @@
                                 <div class="description__item revealator-slideup revealator-delay1 revealator-once">
                                     <div class="row">
                                         <div class="col-md-3 description__item-img-col">
-                                            <div class="description__item-img-nechet">
-                                                <img src="<?php bloginfo('template_directory') ?>/img/index-icon2.svg" alt="icon-diamed">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <div class="description__item-content">
-                                                <p><strong>Тест на антитела IgG к коронавирусу</strong> Коронавирус
-                                                    SARS-CoV-2, антитела IgG) предназначен для определения иммуноглобулинов
-                                                    класса G (IgG).</p>
-                                                <p>Антитела IgG обнаруживаются в крови пациентов через 10-14 дней от момента
-                                                    появления симптомов и сохраняются длительное время. Выявление антител
-                                                    IgG против коронавируса SARS-CoV-2 при отсутствии клинических проявлений
-                                                    свидетельствует о бессимптомном течении инфекционного процесса или о
-                                                    ранее перенесенном заболевании. </p>
-                                                <p><span>Биоматериал для исследования:</span> венозная кровь</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="description__item revealator-slideup revealator-delay2 revealator-once">
-                                    <div class="row">
-                                        <div class="col-md-3 description__item-img-col">
                                             <div class="description__item-img-chet">
                                                 <img src="<?php bloginfo('template_directory') ?>/img/index-icon3.svg" alt="icon-diamed">
                                             </div>
@@ -342,7 +317,7 @@
                     <div class="contract__cards">
                         <div class="row">
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item revealator-slideright revealator-once">
+                                <div class="contract-cards__item revealator-slideup revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract1.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">01</div>
@@ -354,14 +329,14 @@
                                                 <span class="mx-2">|</span>
                                                 <span>E-mail: <strong>info@diamedcare.ru</strong></span>
                                             </div>
-                                            <button class="btn">Форма заявки</button>
+                                            <button class="btn" data-toggle="modal" data-target="#callbackModal">Форма заявки</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item revealator-slideleft revealator-once">
+                                <div class="contract-cards__item revealator-slideup revealator-delay1 revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract2.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">02</div>
@@ -374,7 +349,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item revealator-slideright revealator-once">
+                                <div class="contract-cards__item revealator-slideup revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract3.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">03</div>
@@ -388,7 +363,7 @@
                             </div>
 
                             <div class="col-lg-6 contract-cards__col">
-                                <div class="contract-cards__item revealator-slideleft revealator-once">
+                                <div class="contract-cards__item revealator-slideup revealator-delay1 revealator-once">
                                     <div class="item__top-bg" style="background-image: url('<?php bloginfo('template_directory') ?>/img/contract4.png');">
                                         <div class="item__border-content">
                                             <div class="item__number">04</div>
@@ -405,9 +380,5 @@
             </div>
         </div>
     </section>
-
-
-
-
 
 <?php get_footer(); ?>

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="<?php bloginfo('template_directory') ?>/img/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/png" href="<?php bloginfo('template_directory') ?>/img/favicon.ico">
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/main.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/header.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/css/footer.css">
@@ -20,12 +20,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/slick/css/slick-theme.css">
 
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/revealator/fm.revealator.jquery.css">
-    <title><? if (get_field("title") == null){
-        $title = "DИAMED - Тестирование сотрудников";?>
-        <?=$title; ?>
-       <? } else{ ?>
-            <?=get_field("title");?>
-      <?  } ?></title>
+    <title>Page</title>
 </head>
 <body>
 <header>
@@ -56,7 +51,6 @@
             </div>
         </div>
     </div>
-
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
