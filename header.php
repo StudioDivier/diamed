@@ -20,7 +20,13 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/slick/css/slick-theme.css">
 
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/libs/revealator/fm.revealator.jquery.css">
-    <title>Page</title>
+    <title><? if (get_field("title") == null){
+        $title = "DИAMED - Тестирование сотрудников";?>
+            <?=$title; ?>
+        <? } else{ ?>
+            <?=get_field("title");?>
+        <?  } ?>
+    </title>
 </head>
 <body>
 <header>
