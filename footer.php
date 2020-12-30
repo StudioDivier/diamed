@@ -141,7 +141,7 @@
 <script src="<?php bloginfo('template_directory') ?>/js/addanimationclasses.js"></script>
 
 
-<script src="libs/slick/js/slick.min.js"></script>
+<!-- <script src="libs/slick/js/slick.min.js"></script> -->
 
 <script>
     // Example starter JavaScript for disabling form submissions if there are invalid fields
