@@ -1,7 +1,11 @@
 <?php
 
 require_once "SendMailSmtpClass.php";
+include 'config.php';
 
+use data as f;
+$login = f\D::$log;
+$password = f\D::$pas;
 
 $tel = $_POST['tel'];
 $email = $_POST['email'];
@@ -13,10 +17,11 @@ $from = array(
 );
 
 
-$mailSMTP = new SendMailSmtpClass('belinsky.dev@gmail.com', "N546823791n",
-    'ssl://smtp.gmail.com', 465, "UTF-8");
 
-$to = 'belinsky.dev@gmail.com';
+$mailSMTP = new SendMailSmtpClass($login, $password,
+    'ssl://smtp.yandex.ua', 465, "UTF-8");
+
+$to = 'info@diamedcare.ru';
 
 $url = $_POST['url'];
 
