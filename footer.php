@@ -8,24 +8,24 @@
                         <div class="callback__form revealator-zoomin revealator-once">
                             <h2>Оставьте заявку</h2>
                             <p>Оставьте заявку и наш менеджер свяжется с вами</p>
-                            <form action="" class="needs-validation" novalidate>
+                            <form action="/wp-content/themes/diamed/mail/send.php" class="needs-validation" method="POST" novalidate>
                                 <div class="form-row">
                                     <div class="col-xl-4 col-lg-6">
                                         <label for="tel" style="display: none">телефон</label>
-                                        <input type="tel" class="form-control" id="tel" placeholder="Телефон" required>
+                                        <input type="tel" class="form-control" name="tel" id="tel" placeholder="Телефон" required>
                                         <div class="invalid-feedback">
                                             Пожалуйста введите корректный телефон
                                         </div>
                                     </div>
                                     <div class="col-xl-4 col-lg-6">
                                         <label for="email" style="display: none">email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
                                         <div class="invalid-feedback">
                                             Пожалуйста введите корректный E-mail
                                         </div>
                                     </div>
                                     <div class="col-xl-4">
-                                        <button class="btn" type="submit">Отправить заявку</button>
+                                        <button class="btn" id="btn">Отправить заявку</button>
                                     </div>
                                 </div>
                             </form>
