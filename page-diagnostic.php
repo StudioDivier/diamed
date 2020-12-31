@@ -206,7 +206,7 @@
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <a class="" href="#">Скачать</a>
+                                            <a class="" href="#" data-toggle="modal" data-target="#callbackModal">Скачать</a>
                                         </div>
                                     </div>
                                 </div>
@@ -426,7 +426,7 @@
                                     структур организма. Этот способ исследования является основным в современной медицинской
                                     практике.</p>
                                 <button class="btn" data-toggle="modal" data-target="#callbackModal">Заказать</button>
-                                <button class="btn blue-btn">Скачать прайс-лист</button>
+                                <button class="btn blue-btn" data-toggle="modal" data-target="#callbackModal">Скачать прайс-лист</button>
                             </div>
                         </div>
                     </div>

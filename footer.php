@@ -8,7 +8,7 @@
                         <div class="callback__form revealator-zoomin revealator-once">
                             <h2>Оставьте заявку</h2>
                             <p>Оставьте заявку и наш менеджер свяжется с вами</p>
-                            <form action="/wp-content/themes/diamed/mail/send.php" class="needs-validation" method="POST" novalidate>
+                            <form  action="/wp-content/themes/diamed/mail/send.php" method="POST" class="needs-validation" novalidate>
                                 <div class="form-row">
                                     <div class="col-xl-4 col-lg-6">
                                         <label for="tel" style="display: none">телефон</label>
@@ -20,12 +20,13 @@
                                     <div class="col-xl-4 col-lg-6">
                                         <label for="email" style="display: none">email</label>
                                         <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
+                                        <input type="hidden" name="url" id="url" value="Нижняя форма">
                                         <div class="invalid-feedback">
                                             Пожалуйста введите корректный E-mail
                                         </div>
                                     </div>
                                     <div class="col-xl-4">
-                                        <button class="btn" id="btn">Отправить заявку</button>
+                                        <button class="btn" id="btn"">Отправить заявку</button>
                                     </div>
                                 </div>
                             </form>
@@ -105,18 +106,19 @@
             <div class="modal-body">
                 <h2>Оставьте заявку</h2>
                 <h5>Нашему менеджеру</h5>
-                <form action="" class="needs-validation" novalidate>
+                <form action="/wp-content/themes/diamed/mail/formsend.php" method="POST" class="needs-validation" novalidate>
 
                     <div class="form-group">
                         <label for="tel" style="display: none">телефон</label>
-                        <input type="tel" class="form-control" id="tel-modal" placeholder="Телефон" required>
+                        <input type="tel" class="form-control" id="tel-modal" name="tel-modal" placeholder="Телефон" required>
                         <div class="invalid-feedback">
                             Пожалуйста введите корректный телефон
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="name-modal" style="display: none">name-modal</label>
-                        <input type="name-modal" class="form-control" id="name-modal" placeholder="Имя" required>
+                        <input type="name-modal" class="form-control" id="name-modal" name="name-modal" placeholder="Имя" required>
+                        <input type="hidden" name="url-modal" id="url-modal" value="Форма заявки">
                         <div class="invalid-feedback">
                             Пожалуйста введите корректное Имя
                         </div>

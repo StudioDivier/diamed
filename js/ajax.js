@@ -1,25 +1,13 @@
-// /* Article FructCode.com */
-// $( document ).ready(function() {
-//     $("#btn").click(
-//         function(){
-//             sendAjaxForm('result_form', 'ajax_form', '/wp-content/themes/diamed/mail/send.php');
-//             return false;
-//         }
-//     );
-// });
-//
-// function sendAjaxForm(result_form, ajax_form, url) {
+// function sendMail() {
+//     var = tel = $('#tel').val();
+//     var = email = $('#email').val();
+//     var = url = $('#url').val();
 //     $.ajax({
-//         url:     url, //url страницы (action_ajax_form.php)
-//         type:     "POST", //метод отправки
-//         dataType: "html", //формат данных
-//         data: $("#"+ajax_form).serialize(),  // Сеарилизуем объект
-//         success: function(response) { //Данные отправлены успешно
-//             result = $.parseJSON(response);
-//             $('#result_form').html('Email: '+result.email+'<br>Телефон: '+result.tel+'<br>url: '+result.url+'<br>link: '+ result.link);
-//         },
-//         error: function(response) { // Данные не отправлены
-//             $('#result_form').html('Ошибка. Данные не отправлены.');
-//         }
-//     });
+//         type: "POST",
+//         url: '../mail/send.php',
+//         data: {tel:tel, email:email, url:url}
+//     }).done(function (result)
+//         {
+//             $("#msg").html( " Address of Roll " );
+//         });
 // }

@@ -179,7 +179,7 @@
                                         <p>Напишите: <span>info@diamedcare.ru</span></p>
                                     </div>
                                 </div>
-                                <form action="" class="needs-validation" novalidate>
+                                <form action="/wp-content/themes/diamed/mail/send.php" method="POST" class="needs-validation" novalidate>
                                     <div class="form-row red-check-row-2">
                                         <div class="col-lg-3">
                                             <div class="callback__red-check">
@@ -189,14 +189,15 @@
                                         </div>
                                         <div class="col-lg-3">
                                             <label for="tel" style="display: none">телефон</label>
-                                            <input type="tel" class="form-control" id="tel" placeholder="Телефон" required>
+                                            <input type="tel" class="form-control" id="tel" name="tel" placeholder="Телефон" required>
                                             <div class="invalid-feedback">
                                                 Пожалуйста введите корректный телефон
                                             </div>
                                         </div>
                                         <div class="col-lg-3">
                                             <label for="email" style="display: none">email</label>
-                                            <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
+                                            <input type="hidden" name="url" id="url" value="Форма со страницы Экспресс-тестирование на Covid-19">
                                             <div class="invalid-feedback">
                                                 Пожалуйста введите корректный E-mail
                                             </div>
@@ -395,7 +396,7 @@
                                             <h5>После оплаты счета и подписания договора</h5>
                                             <p>Вы можете выбрать подходящие для тестирования дату и время. (Для наших
                                                 постоянных заказчиков действует система пост оплаты.)</p>
-                                            <a href="#">Ссылка на скачивание типового договора</a>
+                                            <a href="<?php bloginfo('template_directory') ?>/files/dogovor.docx">Ссылка на скачивание типового договора</a>
                                         </div>
                                     </div>
                                 </div>
