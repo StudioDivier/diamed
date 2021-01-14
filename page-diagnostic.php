@@ -102,15 +102,16 @@
                                             <span>01</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Коронавирус, РНК</h5>
-                                            <p>(SARS-CoV-2, ПЦР)</p>
+                                            <h5><?= get_field("card1_name"); ?></h5>
+                                            <p><?= get_field("card1_name_f"); ?></p>
                                         </div>
                                         <div class="card__options">
-                                            <p>Биоматериал: <strong>Мазок, кач.</strong></p>
+                                            <p><?= get_field("card1_bio"); ?></p>
+                                            <p><?= get_field("card1_res"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена одного исследования: <span> 2 400 ₽</span></p>
+                                            <p>Цена одного исследования: <span><?= get_field("card1_price"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -121,16 +122,16 @@
                                             <span>02</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Коронавирус, РНК</h5>
-                                            <p>(SARS-CoV-2, ПЦР)</p>
+                                            <h5><?= get_field("card2_name"); ?></h5>
+                                            <p><?= get_field("card2_name_f"); ?></p>
                                         </div>
                                         <div class="card__options">
-                                            <p>Биоматериал: <strong>Мазок из зева</strong></p>
-                                            <p>(Готовность 1 сутки)</p>
+                                            <p><?= get_field("card2_bio"); ?></p>
+                                            <p><?= get_field("card2_res"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена одного исследования: <span> 3 000 ₽</span></p>
+                                            <p>Цена одного исследования: <span><?= get_field("card2_price"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -141,15 +142,16 @@
                                             <span>03</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Коронавирус SARS-CoV-2</h5>
-                                            <p>(антитела lgG)</p>
+                                            <h5><?= get_field("card3_name"); ?></h5>
+                                            <p><?= get_field("card3_name_f"); ?></p>
                                         </div>
                                         <div class="card__options">
-
+                                            <p><?= get_field("card3_bio"); ?></p>
+                                            <p><?= get_field("card3_res"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена одного исследования: <span> 3 000 ₽</span></p>
+                                            <p>Цена одного исследования: <span><?= get_field("card3_price"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -160,15 +162,16 @@
                                             <span>04</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Коронавирус SARS-CoV-2</h5>
-                                            <p>(антитела lgM)</p>
+                                            <h5><?= get_field("card4_name"); ?></h5>
+                                            <p><?= get_field("card4_name_f"); ?></p>
                                         </div>
                                         <div class="card__options">
-
+                                            <p><?= get_field("card4_bio"); ?></p>
+                                            <p><?= get_field("card4_res"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена одного исследования: <span> 1 350 ₽</span></p>
+                                            <p>Цена одного исследования: <span><?= get_field("card4_price"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -179,15 +182,16 @@
                                             <span>05</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Коронавирус SARS-CoV-2</h5>
-                                            <p>(антитела lgG и lgM)</p>
+                                            <h5><?= get_field("card5_name"); ?></h5>
+                                            <p><?= get_field("card5_name_f"); ?></p>
                                         </div>
                                         <div class="card__options">
-
+                                            <p><?= get_field("card5_bio"); ?></p>
+                                            <p><?= get_field("card5_res"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена одного исследования: <span> 2 200 ₽</span></p>
+                                            <p>Цена одного исследования: <span><?= get_field("card5_price"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -198,11 +202,12 @@
                                             <span>06</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Коронавирус комплекс</h5>
-                                            <p>(РНК, lgG, lgM)</p>
+                                            <h5><?= get_field("card6_name"); ?></h5>
+                                            <p><?= get_field("card6_name_f"); ?></p>
                                         </div>
                                         <div class="card__options">
-
+                                            <p><?= get_field("card6_bio"); ?></p>
+                                            <p><?= get_field("card6_res"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
@@ -212,8 +217,7 @@
                                 </div>
                             </div>
                         </div>
-                        <p class="under-cards" style="max-width: 1000px">Стоимость выезда медицинской бригады <strong>2 000
-                                р.</strong> в пределах 15 км. от МКАД, далее <strong>30 р.</strong> километр.</p>
+                        <p class="under-cards" style="max-width: 1000px"><?= get_field("mcad"); ?></p>
                     </div>
 
                     <div class="service__item">
@@ -265,14 +269,14 @@
                                             <span>01</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Электрокардиография</h5>
-                                            <p>(ЭКГ)</p>
+                                            <h5><?= get_field("covid1"); ?></h5>
+                                            <p><?= get_field("covid_d1"); ?></p>
                                         </div>
                                         <div class="card__options">
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена: <span> 1 800 ₽</span></p>
+                                            <p>Цена: <span> <?= get_field("covid_price1"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -283,14 +287,14 @@
                                             <span>02</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Электрокардиография</h5>
-                                            <p>с нагрузочными пробами дополнительными отведениями</p>
+                                            <h5><?= get_field("covid2"); ?></h5>
+                                            <p><?= get_field("covid_d2"); ?></p>
                                         </div>
                                         <div class="card__options">
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена: <span> 2 300 ₽</span></p>
+                                            <p>Цена: <span> <?= get_field("covid_price2"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -298,8 +302,7 @@
                             </div>
 
                         </div>
-                        <p class="under-cards" style="max-width: 1000px">Стоимость выезда медицинской бригады <strong>2 000
-                                р.</strong> в пределах 15 км. от МКАД, далее <strong>30 р.</strong> километр.</p>
+                        <p class="under-cards" style="max-width: 1000px"><?= get_field("mcad"); ?></p>
                     </div>
 
                     <div class="service__item">
@@ -328,13 +331,12 @@
                                             <span>01</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Внутривенное вливание капельное</h5>
-                                            <p style="min-height: 72px">(в зависимости от категории сложности, без учета
-                                                стоимости лекарственных средств)</p>
+                                            <h5><?= get_field("covid21"); ?></h5>
+                                            <p style="min-height: 72px"><?= get_field("covid_d21"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена от: <span> 1 200 ₽</span></p>
+                                            <p>Цена от: <span> <?= get_field("covid_price21"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -345,12 +347,12 @@
                                             <span>02</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Внутримышечная<br>инъекция</h5>
-                                            <p style="min-height: 72px">(без учета стоимости лекарственных средств)</p>
+                                            <h5><?= get_field("covid22"); ?></h5>
+                                            <p style="min-height: 72px"><?= get_field("covid_d22"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена: <span> 450 ₽</span></p>
+                                            <p>Цена от: <span> <?= get_field("covid_price22"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -361,12 +363,12 @@
                                             <span>03</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Подкожная<br>инъекция</h5>
-                                            <p style="min-height: 72px">(без учета стоимости лекарственных средств)</p>
+                                            <h5><?= get_field("covid23"); ?></h5>
+                                            <p style="min-height: 72px"><?= get_field("covid_d23"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена: <span> 450 ₽</span></p>
+                                            <p>Цена от: <span> <?= get_field("covid_price23"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -377,13 +379,12 @@
                                             <span>04</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Дежурство медсестры на дому</h5>
-                                            <p style="min-height: 72px">дневное/ночное с 9.00 до 21.00 (стоимость за 1
-                                                час)</p>
+                                            <h5><?= get_field("covid24"); ?></h5>
+                                            <p style="min-height: 72px"><?= get_field("covid_d24"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена: <span> 500/650 ₽</span></p>
+                                            <p>Цена от: <span> <?= get_field("covid_price24"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -394,13 +395,12 @@
                                             <span>05</span>
                                         </div>
                                         <div class="card__title">
-                                            <h5>Дежурство медсестры на дому</h5>
-                                            <p style="min-height: 72px">дневное/ночное с 9.00 до 21.00 (стоимость за 12
-                                                часов)</p>
+                                            <h5><?= get_field("covid25"); ?></h5>
+                                            <p style="min-height: 72px"><?= get_field("covid_d25"); ?></p>
                                         </div>
                                         <div class="card__divider"></div>
                                         <div class="card__service">
-                                            <p>Цена: <span> 5000/6500 ₽</span></p>
+                                            <p>Цена от: <span> <?= get_field("covid_price25"); ?></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -408,8 +408,7 @@
                             </div>
 
                         </div>
-                        <p class="under-cards" style="max-width: 1000px">Стоимость выезда медицинской бригады <strong>2 000
-                                р.</strong> в пределах 15 км. от МКАД, далее <strong>30 р.</strong> километр.</p>
+                        <p class="under-cards" style="max-width: 1000px"><?= get_field("mcad"); ?></p>
                     </div>
 
                     <div class="service__item">

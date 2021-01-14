@@ -237,17 +237,25 @@
                                         <span>01</span>
                                     </div>
                                     <div class="card__title">
-                                        <h5>Экспресс-Тестирование на коронавирус, антитела lgG и lgM</h5>
-                                        <p>с помощью экспресс тестов (Leccurate SARS Cov-2)</p>
+                                        <h5><?= get_field("card1_name"); ?></h5>
+                                        <p><?= get_field("card1_name_f"); ?></p>
                                     </div>
                                     <div class="card__options">
-                                        <p>Биоматериал: <strong>Капиллярная кровь</strong> (Безболезненный лазерный забор)
+                                        <p>
+                                            <?= get_field("card1_bio"); ?>
                                         </p>
-                                        <p>Результат в течение <strong>45 минут</strong></p>
+                                        <p>
+                                            <?= get_field("card1_res"); ?>
+                                        </p>
                                     </div>
                                     <div class="card__divider"></div>
                                     <div class="card__price">
-                                        <p>Стоимость:&nbsp;&nbsp;<span>от 1 500 ₽</span></p>
+                                        <p>
+                                            <p>Стоимость:&nbsp;&nbsp;<span>
+                                                <?= get_field("card1_price"); ?>
+                                            </span></p>
+
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -258,17 +266,17 @@
                                         <span>02</span>
                                     </div>
                                     <div class="card__title">
-                                        <h5>Экспресс-Тестирование для определения концентрации</h5>
-                                        <p>общего иммуноглобулина класса G с помощью тестов «ImmuneCheck»</p>
+                                        <h5><?= get_field("card2_name"); ?></h5>
+                                        <p><?= get_field("card2_name_f"); ?></p>
                                     </div>
                                     <div class="card__options">
-                                        <p>Биоматериал: <strong>Капиллярная кровь</strong> (Безболезненный лазерный забор)
+                                        <p><?= get_field("card2_bio"); ?>
                                         </p>
-                                        <p>Результат в течение <strong>45 минут</strong></p>
+                                        <p><?= get_field("card2_res"); ?></p>
                                     </div>
                                     <div class="card__divider"></div>
                                     <div class="card__price">
-                                        <p>Стоимость:&nbsp;&nbsp;<span>от 1 500 ₽</span></p>
+                                        <p>Стоимость:&nbsp;&nbsp;<span><?= get_field("card2_price"); ?></span></p>
                                     </div>
                                 </div>
                             </div>
