@@ -120,7 +120,7 @@
                                         <span>01</span>
                                     </div>
                                     <div class="card__title">
-                                        <h5>Коронавирус, РНК</h5>
+                                        <h5><?=get_field("card1_name"); ?></h5>
                                         <p>(SARS-CoV-2, ПЦР)</p>
                                     </div>
                                     <div class="card__options">
